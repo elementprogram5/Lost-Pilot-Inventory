@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://op04mr00wyfj"
-path="res://.godot/imported/Bandage.png-9a7129d48662ecb10ab7f4893d3551c6.ctex"
+path="res://.godot/imported/Bandage.png-b12ac8b08d2620b875189a876dda4b7e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/sprites/objects/Item_icons/Bandage.png"
-dest_files=["res://.godot/imported/Bandage.png-9a7129d48662ecb10ab7f4893d3551c6.ctex"]
+source_file="res://assets/sprites/objects/Item_icons/Bandage.png"
+dest_files=["res://.godot/imported/Bandage.png-b12ac8b08d2620b875189a876dda4b7e.ctex"]
 
 [params]
 

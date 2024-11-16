@@ -1,7 +1,8 @@
-[gd_scene load_steps=18 format=3 uid="uid://didh1mtde07hl"]
+[gd_scene load_steps=19 format=3 uid="uid://didh1mtde07hl"]
 
 [ext_resource type="Texture2D" uid="uid://b1y70ybs2m3ad" path="res://assets/DoorSpriteSheet.png" id="2_hov0a"]
 [ext_resource type="Script" path="res://scripts/ui/base/CircleMenuButton.gd" id="2_p0yik"]
+[ext_resource type="Script" path="res://scripts/ui/base/WheelOption.gd" id="3_prjk7"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_y6b7b"]
 atlas = ExtResource("2_hov0a")
@@ -196,7 +197,10 @@ shortcut = null
 shortcut_feedback = true
 shortcut_in_tooltip = true
 script = ExtResource("2_p0yik")
+options = Array[ExtResource("3_prjk7")]([])
 color_bg = Color(0, 0, 0, 1)
+color_line = Color(1, 1, 1, 1)
+color_highlight = Color(1, 0.5, 0, 1)
 size_outer_radius = 100
 size_inner_radius = 32
 size_line_width = 2

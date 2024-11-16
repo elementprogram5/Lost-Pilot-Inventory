@@ -1,8 +1,8 @@
 [gd_scene load_steps=5 format=3 uid="uid://bo4uld1h02n47"]
 
-[ext_resource type="Script" path="res://Scripts/Menus/pause_menu.gd" id="1_sjvxr"]
-[ext_resource type="Texture2D" uid="uid://cl3v6nwopeykd" path="res://Assets/UI/TransparentGrayPanel64x64.png" id="2_7rbvu"]
-[ext_resource type="FontFile" uid="uid://b2qsse7qo1d8y" path="res://Assets/Gugi-Regular.ttf" id="3_ofry3"]
+[ext_resource type="Script" path="res://scripts/menus/pause_menu.gd" id="1_uwvjk"]
+[ext_resource type="Texture2D" uid="uid://cl3v6nwopeykd" path="res://assets/ui/TransparentGrayPanel64x64.png" id="2_7rbvu"]
+[ext_resource type="FontFile" uid="uid://b2qsse7qo1d8y" path="res://assets/Gugi-Regular.ttf" id="3_ofry3"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_3b2dr"]
 texture = ExtResource("2_7rbvu")
@@ -13,7 +13,7 @@ texture_margin_bottom = 2.0
 axis_stretch_horizontal = 1
 axis_stretch_vertical = 1
 
-[node name="PauseMenu" type="Control" node_paths=PackedStringArray("start_focus")]
+[node name="PauseMenu" type="Control"]
 process_mode = 3
 layout_mode = 3
 anchors_preset = 15
@@ -21,9 +21,8 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_sjvxr")
+script = ExtResource("1_uwvjk")
 is_paused = true
-start_focus = NodePath("PanelContainer/MarginContainer/VBoxContainer/Resume")
 metadata/_edit_use_anchors_ = true
 
 [node name="PanelContainer" type="PanelContainer" parent="."]

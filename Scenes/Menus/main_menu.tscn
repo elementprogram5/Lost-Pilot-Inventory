@@ -1,9 +1,9 @@
 [gd_scene load_steps=6 format=3 uid="uid://bfxim84yrh17w"]
 
-[ext_resource type="Script" path="res://Scripts/Menus/main_menu.gd" id="1_8rgqn"]
-[ext_resource type="FontFile" uid="uid://b2qsse7qo1d8y" path="res://Assets/Gugi-Regular.ttf" id="2_x63qt"]
-[ext_resource type="Texture2D" uid="uid://cl3v6nwopeykd" path="res://Assets/UI/TransparentGrayPanel64x64.png" id="3_ilnhd"]
-[ext_resource type="Texture2D" uid="uid://b5m6rbp0pckc7" path="res://Assets/UI/GitHub_Logo.png" id="4_xmsdu"]
+[ext_resource type="Script" path="res://scripts/menus/main_menu.gd" id="1_d0p8l"]
+[ext_resource type="FontFile" uid="uid://b2qsse7qo1d8y" path="res://assets/Gugi-Regular.ttf" id="2_x63qt"]
+[ext_resource type="Texture2D" uid="uid://cl3v6nwopeykd" path="res://assets/ui/TransparentGrayPanel64x64.png" id="3_ilnhd"]
+[ext_resource type="Texture2D" uid="uid://b5m6rbp0pckc7" path="res://assets/ui/GitHub_Logo.png" id="4_xmsdu"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_7cqtw"]
 texture = ExtResource("3_ilnhd")
@@ -14,15 +14,14 @@ texture_margin_bottom = 2.0
 axis_stretch_horizontal = 1
 axis_stretch_vertical = 1
 
-[node name="MainMenu" type="Control" node_paths=PackedStringArray("start_focus")]
+[node name="MainMenu" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_8rgqn")
-start_focus = NodePath("PanelContainer/MarginContainer/VBoxContainer/Play")
+script = ExtResource("1_d0p8l")
 metadata/_edit_use_anchors_ = true
 
 [node name="ColorRect" type="ColorRect" parent="."]

@@ -1,6 +1,6 @@
 extends UserInterface
 
-const SlotClass = preload("res://Scripts/UI/Inventory/Slot.gd") # Preload the Slot script
+const SlotClass = preload("res://scripts/ui/inventory/Slot.gd") # Preload the Slot script
 @onready var hotbar = $HotbarSlots # Reference to the HotbarSlots node
 @onready var slots = $HotbarSlots.get_children() #List of all child nodes of HotbarSlots
 @onready var active_item_label = $ActiveItemLabel # Reference to the ActiveItemLabel node

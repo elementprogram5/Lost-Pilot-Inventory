@@ -1,14 +1,14 @@
 extends Panel
 
-var default_texture = preload("res://Assets/sprites/Backgrounds/item_slot_default_background.png")
-var empty_texture = preload("res://Assets/sprites/Backgrounds/item_slot_empty_background.png")
-var selected_texture = preload("res://Assets/sprites/Backgrounds/item_slot_selected_background.png")
+var default_texture = preload("res://assets/sprites/backgrounds/item_slot_default_background.png")
+var empty_texture = preload("res://assets/sprites/backgrounds/item_slot_empty_background.png")
+var selected_texture = preload("res://assets/sprites/backgrounds/item_slot_selected_background.png")
 
 var default_style : StyleBoxTexture = null
 var empty_style : StyleBoxTexture = null
 var selected_style : StyleBoxTexture = null
 
-var ItemClass = preload("res://Scenes/Inventory/Item.tscn")
+var ItemClass = preload("res://scenes/inventory/Item.tscn")
 var item = null
 var slot_index
 var inventory_slot_index

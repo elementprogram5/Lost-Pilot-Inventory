@@ -1,6 +1,6 @@
 extends UserInterface
 
-const SlotClass = preload("res://Scripts/UI/Inventory/Slot.gd")
+const SlotClass = preload("res://scripts/ui/inventory/Slot.gd")
 @onready var inventory_slots = $VBoxContainer2/PanelContainer2/HBoxContainer/GridContainer
 @onready var equip_slots = $VBoxContainer2/PanelContainer2/HBoxContainer/EquipSlots.get_children()
 @onready var tooltip = $Tooltip

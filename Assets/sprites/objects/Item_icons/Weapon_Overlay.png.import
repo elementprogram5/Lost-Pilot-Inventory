@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b67ntqaob73cw"
-path="res://.godot/imported/Weapon_Overlay.png-614a4cc416e9a98664932f97e3f9638f.ctex"
+path="res://.godot/imported/Weapon_Overlay.png-94555889102abc47d879f287f0b69ffe.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/sprites/objects/Item_icons/Weapon_Overlay.png"
-dest_files=["res://.godot/imported/Weapon_Overlay.png-614a4cc416e9a98664932f97e3f9638f.ctex"]
+source_file="res://assets/sprites/objects/Item_icons/Weapon_Overlay.png"
+dest_files=["res://.godot/imported/Weapon_Overlay.png-94555889102abc47d879f287f0b69ffe.ctex"]
 
 [params]
 

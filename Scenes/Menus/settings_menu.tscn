@@ -1,8 +1,8 @@
 [gd_scene load_steps=5 format=3 uid="uid://vcaloblp0bi6"]
 
-[ext_resource type="Script" path="res://Scripts/Menus/Settings_menu.gd" id="1_pgun7"]
-[ext_resource type="FontFile" uid="uid://b2qsse7qo1d8y" path="res://Assets/Gugi-Regular.ttf" id="2_4werv"]
-[ext_resource type="Texture2D" uid="uid://cl3v6nwopeykd" path="res://Assets/UI/TransparentGrayPanel64x64.png" id="3_f5h2d"]
+[ext_resource type="Script" path="res://scripts/menus/Settings_menu.gd" id="1_cn3bo"]
+[ext_resource type="FontFile" uid="uid://b2qsse7qo1d8y" path="res://assets/Gugi-Regular.ttf" id="2_4werv"]
+[ext_resource type="Texture2D" uid="uid://cl3v6nwopeykd" path="res://assets/ui/TransparentGrayPanel64x64.png" id="3_f5h2d"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_w8p4v"]
 texture = ExtResource("3_f5h2d")
@@ -13,7 +13,7 @@ texture_margin_bottom = 2.0
 axis_stretch_horizontal = 1
 axis_stretch_vertical = 1
 
-[node name="MainMenu" type="Control" node_paths=PackedStringArray("start_focus")]
+[node name="MainMenu" type="Control"]
 process_mode = 3
 layout_mode = 3
 anchors_preset = 15
@@ -21,9 +21,8 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_pgun7")
+script = ExtResource("1_cn3bo")
 is_paused = true
-start_focus = NodePath("MarginContainer/NinePatchRect/Back")
 metadata/_edit_use_anchors_ = true
 
 [node name="ColorRect" type="ColorRect" parent="."]

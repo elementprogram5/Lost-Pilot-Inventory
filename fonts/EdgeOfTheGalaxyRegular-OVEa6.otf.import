@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://dp5qg7jirac5b"
-path="res://.godot/imported/m5x7.ttf-f1bbe3f33b245a60f88e1be0fff3b1fd.fontdata"
+uid="uid://bjh4cehxjwupc"
+path="res://.godot/imported/EdgeOfTheGalaxyRegular-OVEa6.otf-9e152a36077ec85a820962f04e86f595.fontdata"
 
 [deps]
 
-source_file="res://fonts/m5x7.ttf"
-dest_files=["res://.godot/imported/m5x7.ttf-f1bbe3f33b245a60f88e1be0fff3b1fd.fontdata"]
+source_file="res://fonts/EdgeOfTheGalaxyRegular-OVEa6.otf"
+dest_files=["res://.godot/imported/EdgeOfTheGalaxyRegular-OVEa6.otf-9e152a36077ec85a820962f04e86f595.fontdata"]
 
 [params]
 

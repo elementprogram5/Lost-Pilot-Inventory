@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dsfs21gosb436"
-path="res://.godot/imported/FinishedIndicator_64x32.png-0f633ad71d5e280842488cfa4af293af.ctex"
+path="res://.godot/imported/FinishedIndicator_64x32.png-d1b71f92515c3bce6d93d4fc64c920ad.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/UI/FinishedIndicator_64x32.png"
-dest_files=["res://.godot/imported/FinishedIndicator_64x32.png-0f633ad71d5e280842488cfa4af293af.ctex"]
+source_file="res://assets/ui/FinishedIndicator_64x32.png"
+dest_files=["res://.godot/imported/FinishedIndicator_64x32.png-d1b71f92515c3bce6d93d4fc64c920ad.ctex"]
 
 [params]
 

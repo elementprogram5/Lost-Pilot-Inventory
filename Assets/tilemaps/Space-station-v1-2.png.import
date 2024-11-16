@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cohbc0u3tq1t"
-path="res://.godot/imported/Space-station-v1-2.png-dadf16db45a48e6755913ddaee66e574.ctex"
+path="res://.godot/imported/Space-station-v1-2.png-aa99d59b1f107f7e2ac127872a4be7a3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/tilemaps/Space-station-v1-2.png"
-dest_files=["res://.godot/imported/Space-station-v1-2.png-dadf16db45a48e6755913ddaee66e574.ctex"]
+source_file="res://assets/tilemaps/Space-station-v1-2.png"
+dest_files=["res://.godot/imported/Space-station-v1-2.png-aa99d59b1f107f7e2ac127872a4be7a3.ctex"]
 
 [params]
 

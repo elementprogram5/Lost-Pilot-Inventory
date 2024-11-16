@@ -17,10 +17,10 @@ config/icon="res://Assets/icon.svg"
 
 [autoload]
 
-global="*res://Scripts/Global/Global.gd"
-JsonData="*res://Scripts/Global/JSONData.gd"
-PlayerInventory="*res://Scripts/Global/PlayerInventory.gd"
-GameManager="*res://Scripts/Global/GameManager.gd"
+global="*res://scripts/global/Global.gd"
+JsonData="*res://scripts/global/JSONData.gd"
+PlayerInventory="*res://scripts/global/PlayerInventory.gd"
+GameManager="*res://scripts/global/GameManager.gd"
 
 [display]
 

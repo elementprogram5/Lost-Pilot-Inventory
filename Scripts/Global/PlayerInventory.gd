@@ -5,8 +5,8 @@ signal inventory_active_item_updated
 
 const NUM_INVENTORY_SLOTS = 20
 const NUM_HOTBAR_SLOTS = 8
-const ItemClass = preload("res://Scripts/UI/Inventory/Item.gd")
-const SlotClass = preload("res://Scripts/UI/Inventory/Slot.gd")
+const ItemClass = preload("res://scripts/ui/inventory/Item.gd")
+const SlotClass = preload("res://scripts/ui/inventory/Slot.gd")
 
 var inventory = {
 	0 : ["Repair Kit", 5],

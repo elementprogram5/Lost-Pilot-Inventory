@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://blcbp8vbw3wkt"
-path="res://.godot/imported/Basic Vest.png-78ab985f90203846dbcb9bebc0ed1dee.ctex"
+path="res://.godot/imported/Basic Vest.png-3337bc6cda2e1aaadace921d2120736a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/sprites/objects/Item_icons/Basic Vest.png"
-dest_files=["res://.godot/imported/Basic Vest.png-78ab985f90203846dbcb9bebc0ed1dee.ctex"]
+source_file="res://assets/sprites/objects/Item_icons/Basic Vest.png"
+dest_files=["res://.godot/imported/Basic Vest.png-3337bc6cda2e1aaadace921d2120736a.ctex"]
 
 [params]
 

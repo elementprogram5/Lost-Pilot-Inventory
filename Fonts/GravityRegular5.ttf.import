@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://cetyr6obab6ev"
-path="res://.godot/imported/GravityRegular5.ttf-e8bacefa63001bae3e604fcd6130fb45.fontdata"
+path="res://.godot/imported/GravityRegular5.ttf-186e87d864dc22d06ec9d997435e1b98.fontdata"
 
 [deps]
 
-source_file="res://Fonts/GravityRegular5.ttf"
-dest_files=["res://.godot/imported/GravityRegular5.ttf-e8bacefa63001bae3e604fcd6130fb45.fontdata"]
+source_file="res://fonts/GravityRegular5.ttf"
+dest_files=["res://.godot/imported/GravityRegular5.ttf-186e87d864dc22d06ec9d997435e1b98.fontdata"]
 
 [params]
 

@@ -1,7 +1,10 @@
-[gd_scene load_steps=18 format=3 uid="uid://didh1mtde07hl"]
+[gd_scene load_steps=23 format=3 uid="uid://didh1mtde07hl"]
 
+[ext_resource type="Script" path="res://Scripts/InteractionSystem/Door.gd" id="1_uxbyn"]
 [ext_resource type="Texture2D" uid="uid://b1y70ybs2m3ad" path="res://assets/DoorSpriteSheet.png" id="2_hov0a"]
-[ext_resource type="Script" path="res://scripts/ui/base/CircleMenuButton.gd" id="2_p0yik"]
+[ext_resource type="Texture2D" uid="uid://myntqljcecwk" path="res://assets/DoorSpriteSelected.png" id="2_xieid"]
+[ext_resource type="Script" path="res://scripts/ui/base/CircleMenuButton.gd" id="3_xu5ei"]
+[ext_resource type="Script" path="res://Scripts/UI/Base/WheelOption.gd" id="4_v7qj0"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_y6b7b"]
 atlas = ExtResource("2_hov0a")
@@ -109,7 +112,15 @@ animations = [{
 "speed": 13.0
 }]
 
-[node name="InteractableDoor" type="Control"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_mrtq3"]
+script = ExtResource("4_v7qj0")
+name = "Closed"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tec37"]
+script = ExtResource("4_v7qj0")
+name = "Open"
+
+[node name="InteractableDoor" type="Control" node_paths=PackedStringArray("anim", "gui_container", "gui_focus")]
 process_priority = 2
 top_level = true
 layout_mode = 3
@@ -118,6 +129,12 @@ offset_left = -64.0
 offset_top = -64.0
 offset_right = 64.0
 offset_bottom = 64.0
+script = ExtResource("1_uxbyn")
+anim = NodePath("AnimatedSprite2D")
+hover_texture = ExtResource("2_xieid")
+gui_interaction_priority = 2
+gui_container = NodePath("Control")
+gui_focus = NodePath("Control")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 show_behind_parent = true
@@ -195,7 +212,8 @@ button_group = null
 shortcut = null
 shortcut_feedback = true
 shortcut_in_tooltip = true
-script = ExtResource("2_p0yik")
+script = ExtResource("3_xu5ei")
+options = Array[ExtResource("4_v7qj0")]([SubResource("AtlasTexture_mrtq3"), SubResource("AtlasTexture_tec37")])
 color_bg = Color(0, 0, 0, 1)
 size_outer_radius = 100
 size_inner_radius = 32

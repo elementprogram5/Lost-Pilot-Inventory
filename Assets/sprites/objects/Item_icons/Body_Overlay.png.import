@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://iepriqfn6mhf"
-path="res://.godot/imported/Body_Overlay.png-59729a3fb2032fbd9c91bf9372d6cb6f.ctex"
+path="res://.godot/imported/Body_Overlay.png-d2291eef1d486a0745c129d4bbb5cfde.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/sprites/objects/Item_icons/Body_Overlay.png"
-dest_files=["res://.godot/imported/Body_Overlay.png-59729a3fb2032fbd9c91bf9372d6cb6f.ctex"]
+source_file="res://assets/sprites/objects/Item_icons/Body_Overlay.png"
+dest_files=["res://.godot/imported/Body_Overlay.png-d2291eef1d486a0745c129d4bbb5cfde.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cwvx2rb5tx3mt"
-path="res://.godot/imported/Repair Kit.png-c6527a105bce1cb8801a322b2b96c7e5.ctex"
+path="res://.godot/imported/Repair Kit.png-66c943c31a52cadcac341405a9e20025.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/sprites/objects/Item_icons/Repair Kit.png"
-dest_files=["res://.godot/imported/Repair Kit.png-c6527a105bce1cb8801a322b2b96c7e5.ctex"]
+source_file="res://assets/sprites/objects/Item_icons/Repair Kit.png"
+dest_files=["res://.godot/imported/Repair Kit.png-66c943c31a52cadcac341405a9e20025.ctex"]
 
 [params]
 
