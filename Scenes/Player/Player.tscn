@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://dkkdcx534ran6"]
+
+[ext_resource type="Script" path="res://scripts/player/Player.gd" id="1_xne5l"]
+[ext_resource type="Texture2D" uid="uid://b05hj6ognkfqi" path="res://assets/icon.svg" id="2_pi6i1"]
+
+[node name="Player" type="Node2D"]
+z_index = 1
+script = ExtResource("1_xne5l")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_pi6i1")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position_smoothing_enabled = true
+position_smoothing_speed = 2.0

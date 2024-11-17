@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://lffo83livjbu"
-path="res://.godot/imported/Animated-door-V.png-8dbba376c15f43235c2aad321c4cd5da.ctex"
+uid="uid://bjbpgmnw8bq5p"
+path="res://.godot/imported/Weapon 1.png-c98b226df70fda0c8ab563a667e2894e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/sprites/objects/Animated-door-V.png"
-dest_files=["res://.godot/imported/Animated-door-V.png-8dbba376c15f43235c2aad321c4cd5da.ctex"]
+source_file="res://assets/sprites/objects/Item_icons/Weapon 1.png"
+dest_files=["res://.godot/imported/Weapon 1.png-c98b226df70fda0c8ab563a667e2894e.ctex"]
 
 [params]
 

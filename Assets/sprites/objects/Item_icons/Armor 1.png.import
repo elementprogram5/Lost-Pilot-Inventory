@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://lffo83livjbu"
-path="res://.godot/imported/Animated-door-V.png-8dbba376c15f43235c2aad321c4cd5da.ctex"
+uid="uid://ds7yp5svnfu3t"
+path="res://.godot/imported/Armor 1.png-2fbe0e1c065bbc7dcea3520a9845f70e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/sprites/objects/Animated-door-V.png"
-dest_files=["res://.godot/imported/Animated-door-V.png-8dbba376c15f43235c2aad321c4cd5da.ctex"]
+source_file="res://Assets/Item_icons/Armor 1.png"
+dest_files=["res://.godot/imported/Armor 1.png-2fbe0e1c065bbc7dcea3520a9845f70e.ctex"]
 
 [params]
 

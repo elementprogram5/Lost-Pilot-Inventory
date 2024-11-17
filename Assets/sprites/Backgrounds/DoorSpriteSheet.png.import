@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://lffo83livjbu"
-path="res://.godot/imported/Animated-door-V.png-8dbba376c15f43235c2aad321c4cd5da.ctex"
+uid="uid://dlbu058svc615"
+path="res://.godot/imported/DoorSpriteSheet.png-1dc8a2253f27a4e59ec1d45652a35668.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/sprites/objects/Animated-door-V.png"
-dest_files=["res://.godot/imported/Animated-door-V.png-8dbba376c15f43235c2aad321c4cd5da.ctex"]
+source_file="res://assets/sprites/backgrounds/DoorSpriteSheet.png"
+dest_files=["res://.godot/imported/DoorSpriteSheet.png-1dc8a2253f27a4e59ec1d45652a35668.ctex"]
 
 [params]
 
